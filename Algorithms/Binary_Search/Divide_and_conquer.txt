@@ -1,0 +1,11 @@
+Divide-and-conquer has several advantages:
+
+	1- It let us solve conceptually complex problems by breaking them into smaller subproblems.
+	2- It has a better asymptotic cost than brute force approaches and is used in many efficient algorithms such as merge sort and quicksort.
+	3- It makes efficient use of memory caches, which are the fastest type of memory units in a computer.
+
+However, it does have some issues as well:
+
+	1- Since divide-and-conquer algorithms are usually implemented recursively, they require additional memory allocation on the stack. 
+		If a divide-and-conquer algorithm is executed without sufficient memory, a stack overflow error will occur.
+	2- Divide-and-conquer cannot avoid evaluating the same subproblem repeatedly, making it a bad fit for problems that have overlapping subproblems.
