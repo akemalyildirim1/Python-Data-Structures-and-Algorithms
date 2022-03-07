@@ -1,1 +1,1 @@
-Bubble Sort, Merge Sort, Quick Sort
+Bubble Sort, Merge Sort, Quick Sort, Heap Sort, Graph Sort
