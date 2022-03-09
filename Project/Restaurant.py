@@ -4,10 +4,10 @@ Restaurants have 4 properties: Name, Price, Rating, Address:
 
 class Restaurant:
     #Constructor:
-    def __init__(self, name, price, address):
+    def __init__(self, name, price, rating, address):
         #Information of the restaurant is kept in a list.
-        #self.data[-1]-> type of the node!
-        self.data = [name, price, address, type]
+        #self.data[0]-> name
+        self.data = [name, price, rating, address]
         #Initially, any node didn't have any connection.
         self.next_node = None
     
