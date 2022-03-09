@@ -1,2 +1,2 @@
-Dijkstra's Algorithm\n
+Dijkstra's Algorithm
 A*
