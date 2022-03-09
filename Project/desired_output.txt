@@ -1,0 +1,74 @@
+Restoran:
+Welcome message!
+What type of food would you like to eat?
+Type the beginning of that food type and press enter to see if its here:
+"c"
+
+with those beginning letters, your choices are ["cafe", "chinese", "czech"]
+
+What type of food would you like to eat?
+Type the beginning of that food type and press enter to see if its here:
+"ch"
+
+The only option with those beginning letters is Chinese. Do you want to look at Chinese restaurants? Enter 'y' for yes and 'n' for no
+"y"
+
+The chinese restaurants in Soho:
+-------------------
+
+Name: Dragon's Tail
+Price: 1/5
+Rating: 4/5
+Address: 8 Jasmine Rd.
+
+-------------------
+
+Name: Super Wonton Express
+Price: 2/5
+Rating: 1/5
+Address: 223 Milliways Ave
+
+-------------------
+
+Name: Shandong Lu
+Price: 4/5
+Rating: 3/5
+Address: 335 University
+
+-------------------
+
+Do you want other restaurants? Enter "y" for yes and "n" for no.
+"y"
+
+What type of food would you like to eat?
+Type the beginning of that food type and press enter to see if its here:
+"g"
+
+The only option with those beginning letters is German. Do you want to look at German restaurants? Enter "y" for yes and "n" for no
+"n"
+
+What type of food would you like to eat?
+Type the beginning of that food type and press enter to see if its here:
+"i"
+
+With those beginning letters , your choices are ["indian", "italian"]
+
+What type of food would you like to eat?
+Type the beginning of that food type and press enter to see if its here:
+"it"
+The only option with those beginning letters is German. Do you want to look at Italian restaurants? Enter "y" for yes and "n" for no
+"y"
+
+The Italian Restaurants in SoHo are ....
+
+-------------------
+
+Name: Party Pasta
+Price: 5/5
+Rating: 2/5
+Address: 70 E Main St.
+
+-------------------
+
+Do you want other restaurants? Enter "y" for yes and "n" for no.
+"n"
