@@ -11,6 +11,10 @@ class Restaurant:
         #Initially, any node didn't have any connection.
         self.next_node = None
     
+    #Getter of the name of the node:
+    def get_name(self):
+        return self.data[0]
+
     #Setter of the next node of the Restaurant node.
     def set_next_node(self,other_node):
         self.next_node = other_node
