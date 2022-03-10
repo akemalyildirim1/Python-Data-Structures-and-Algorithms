@@ -15,12 +15,15 @@ class Restaurant:
     def get_name(self):
         return self.data[0]
     
+    #Getter of the price of the node:
     def get_price(self):
         return self.data[1]
 
+    #Getter of the rating of the node:
     def get_rating(self):
         return self.data[2]
     
+    #Getter of the address of the node:
     def get_address(self):
         return self.data[3]
 
