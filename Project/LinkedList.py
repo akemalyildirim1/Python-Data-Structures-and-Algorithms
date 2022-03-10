@@ -48,11 +48,15 @@ class LinkedList:
     
     #For visualization of the linked list:
     def stringify_list(self):
-        string_list = ""
         current_node = self.get_head_node()
         while current_node:
             if current_node.get_name() is not None:
-                string_list += str(current_node.get_name()) +"\n"
+                print ("-------------------")
+                print("")
+                print(f"Name: {current_node.get_name()}")
+                print(f"Price: {current_node.get_price()}")
+                print(f"Rating: {current_node.get_rating()}")
+                print(f"Address: {current_node.get_address()}")
+                print("")
             current_node = current_node.get_next_node()
-        return string_list
-                
+        print ("-------------------")
