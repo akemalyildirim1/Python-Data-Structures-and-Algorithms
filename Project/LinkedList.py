@@ -1,15 +1,14 @@
 """
 Node Class of this linked list class is Restaurant.
 """
-from hashlib import new
 from Restaurant import Restaurant
 
 class LinkedList:
     #Constructor
-    def __init__(self, name, price, rating, address):
-        #Function parameter is the head node of the linked list.
-        self.head=Restaurant(name, price, rating, address)
-    
+    def __init__(self):
+        #Initialized as empty linked list.
+        self.head = None
+
     #Getter of the head node value:
     def get_head_node(self):
         return self.head
@@ -19,8 +18,14 @@ class LinkedList:
     def insert(self,name, price, rating, address):
         new_node = Restaurant(name, price, rating , address)
         current_node = self.get_head_node()
+        
+        #If the linked list is empth, there will be no head, Then the new node will be head.
+        if current_node is None:
+            self.head = new_node
+            return self.head.get_name()
+
         #If new_node's has more priority than current head, it will be the new head.
-        if new_node.get_name() < current_node.get_name():
+        if new_node.get_name() < current_node.get_name() :
             new_node.set_next_node(current_node)
             self.head = new_node
             return self.head.get_name()
@@ -51,5 +56,3 @@ class LinkedList:
             current_node = current_node.get_next_node()
         return string_list
                 
-                
-            
