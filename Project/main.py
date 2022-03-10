@@ -4,45 +4,9 @@ from restaurantData import types, restaurant_data
 import helper_functions as hf
 
 
-"""
-chi = LinkedList("Dragon's Tail","1/5","4/5","8 Jasmine Rd")
-print(chi.stringify_list())
-chi.insert("Super Wonton Express", "2/5", "1/5", "223 Milliways Ave")
-chi.insert("Shandong Lu", "4/5", "3/5", "335 University")
-print(chi.stringify_list())
-"""
-"""
-ger=LinkedList()
-#ger = LinkedList("a","1/5","4/5","8 Jasmine Rd")
-ger.insert("a", "2/5", "1/5", "223 Milliways Ave")
-print("")
-print(ger.stringify_list())
-ger.insert("b", "2/5", "1/5", "223 Milliways Ave")
-print("")
-print(ger.stringify_list())
-ger.insert("c", "2/5", "1/5", "223 Milliways Ave")
-print("")
-print(ger.stringify_list())
-ger.insert("d", "2/5", "1/5", "223 Milliways Ave")
-print("")
-print(ger.stringify_list())
-ger.insert("e", "2/5", "1/5", "223 Milliways Ave")
-print("")
-print(ger.stringify_list())
-ger.insert("f", "2/5", "1/5", "223 Milliways Ave")
-print("")
-print(ger.stringify_list())
-ger.insert("g", "2/5", "1/5", "223 Milliways Ave")
-print("")
-print(ger.stringify_list())
-"""
-
-hf.hello()
-hf.ask_question()
-
 #Restaurant Types:
 german = LinkedList()
-japanese= LinkedList()
+japanese = LinkedList()
 vegetarian = LinkedList()
 french = LinkedList()
 african = LinkedList()
@@ -57,6 +21,39 @@ cafe = LinkedList()
 pizza = LinkedList() 
 italian = LinkedList()
 
-print(types)
-hf.quicksort(types,0,len(types)-1)
-print(types)
+#Restaurant Informations:
+for data in restaurant_data:
+    type_data = data[0]
+    if type_data == "german":
+        german.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "japanese":
+        japanese.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "vegetarian":
+        vegetarian.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "french":
+        french.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "african":
+        african.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "american":
+        american.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "barbecue":
+        barbecue.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "czech":
+        czech.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "chinese":
+        chinese.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "thai":
+        thai.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "mexican":
+        mexican.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "indian":
+        indian.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "cafe":
+        cafe.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "pizza":
+        pizza.insert(data[1],data[2],data[3],data[4])
+    elif type_data == "italian":
+        italian.insert(data[1],data[2],data[3],data[4])
+
+hf.hello()
+hf.ask_question()
