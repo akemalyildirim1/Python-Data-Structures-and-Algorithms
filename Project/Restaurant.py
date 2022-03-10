@@ -14,6 +14,15 @@ class Restaurant:
     #Getter of the name of the node:
     def get_name(self):
         return self.data[0]
+    
+    def get_price(self):
+        return self.data[1]
+
+    def get_rating(self):
+        return self.data[2]
+    
+    def get_address(self):
+        return self.data[3]
 
     #Setter of the next node of the Restaurant node.
     def set_next_node(self,other_node):
