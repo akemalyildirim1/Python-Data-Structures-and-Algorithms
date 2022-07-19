@@ -11,6 +11,8 @@ class LinkedList:
 
     #Getter of the head node value:
     def get_head_node(self):
+        print(1)
+        print(2)
         return self.head
     
     #Adder function of the LinkedList.
